@@ -7,7 +7,7 @@ import Price from '../../Components/Price/Price';
 
 export default function CartPage() {
   
-    const { cart } = useCart();
+    const { cart, removeFromCart, changeQuantity } = useCart();
 
     return (
         <>
@@ -30,7 +30,9 @@ export default function CartPage() {
                                 </div>
 
                                 <div>
-                                    <select value = {item.quantity}>
+                                    <select value = {item.quantity} 
+                                    onChange={e => changeQuantity(item, Number(e.target.value))}
+                                    >
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
@@ -49,7 +51,7 @@ export default function CartPage() {
                                 </div>
 
                                 <div>
-                                    <button className={classes.remove_button}>
+                                    <button className={classes.remove_button} onClick ={() => removeFromCart(item.food.id)}>
                                         Remover producto
                                     </button>
                                 </div>
@@ -66,7 +68,7 @@ export default function CartPage() {
                             </div>
                         </div>
 
-                        <Link to="/pago">Proceder al pago</Link>
+                        <Link to="/pago">Pagar</Link>
                     </div>
                 </div>
  
