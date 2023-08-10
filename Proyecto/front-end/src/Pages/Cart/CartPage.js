@@ -4,6 +4,7 @@ import { useCart } from '../../hooks/useCart'
 import Title from '../../Components/Title/Title';
 import { Link } from 'react-router-dom';
 import Price from '../../Components/Price/Price';
+import NotFound from '../../Components/NotFound/NotFound';
 
 export default function CartPage() {
   
@@ -13,7 +14,9 @@ export default function CartPage() {
         <>
             <Title title = "Carrito de compras" margin = "1.5rem 0 0 2.5rem" />
 
-            {cart && cart.items.length > 0 && 
+            {cart.items.length === 0 ? (
+            <NotFound message="El carrito está vacío" />
+            ) : (
 
                 <div className={classes.container}>
                     <ul className={classes.list}>
@@ -72,7 +75,7 @@ export default function CartPage() {
                     </div>
                 </div>
  
-            }
+            )}
         </>
     );
 }

@@ -6,6 +6,7 @@ import StarRating from '../../Components/StarRating/StarRating';
 import Tags from '../../Components/Tags/Tags';
 import Price from '../../Components/Price/Price';
 import { useCart } from '../../hooks/useCart';
+import NotFound from '../../Components/NotFound/NotFound';
 
 export default function FoodPage() {
     const [food, setFood] = useState({});
@@ -24,7 +25,8 @@ export default function FoodPage() {
 
     return (
         <>
-            {food && (
+            {!food? (<NotFound message="No se ha encontrado el producto" linkText="Volver al inicio"/>
+            ) : (
                 <div className={classes.container}>
                     <img
                         className={classes.image}
