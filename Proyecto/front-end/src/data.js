@@ -66,3 +66,14 @@ export const sample_foods = [
       tags: ['Comida rápida', 'Pizza', 'Comida chatarra'],
     },
   ];
+
+export const sample_tags = [
+  { name: 'Todo', count: 6 },
+  { name: 'Comida rápida', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Comida chatarra', count: 3 },
+  { name: 'Plato fuerte', count: 2 },
+  { name: 'Hamburguesa', count: 1 },
+  { name: 'Fritos', count: 1 },
+  { name: 'Sopa', count: 1 },
+];
