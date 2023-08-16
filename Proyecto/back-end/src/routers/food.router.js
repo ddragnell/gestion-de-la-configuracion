@@ -7,8 +7,8 @@ router.get('/', (req, res) => {
     res.send(sample_foods);
 });
 
-router.get('/etiquetas', (req, res) => {
-    res.send(sample_foods);
+router.get('/etiqueta', (req, res) => {
+    res.send(sample_tags);
 });
 
 router.get('/buscar/:searchTerm', (req, res) => {
