@@ -1,7 +1,8 @@
 {
   "name": "back-end",
   "version": "1.0.0",
-  "description": "",
+  "author": "Andrés Felipe Saldarriaga Becerra, Manuela Moreno Arcila",
+  "description": "Proyecto de E-commerce tipo rappi para la asignatura gestión de la configuración del año 2023-2 (sexto semestre)",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -9,7 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
