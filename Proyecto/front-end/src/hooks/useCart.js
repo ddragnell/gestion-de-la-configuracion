@@ -43,6 +43,7 @@ export default function CartProvider({ children }) {
     const filteredCartItems = cartItems.filter(item => item.food.id !== foodId);
     setCartItems(filteredCartItems);
   };
+  
 
   const changeQuantity = (cartItem, newQauntity) => {
     const { food } = cartItem;
