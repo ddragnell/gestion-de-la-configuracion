@@ -71,7 +71,7 @@ export default function CartPage() {
                             </div>
                         </div>
 
-                        <Link to="/pago">Pagar</Link>
+                        <Link to="/checkout">Confirmar compra</Link>
                     </div>
                 </div>
  
