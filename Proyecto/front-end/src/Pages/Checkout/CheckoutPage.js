@@ -11,6 +11,7 @@ import Title from "../../Components/Title/Title";
 import Input from "../../Components/Input/Input";
 import OrderItemsList from "../../Components/OrderItemsList/OrderItemsList";
 import Button from "../../Components/Button/Button";
+import Map from "../../Components/Map/Map";
 
 export default function CheckoutPage() {
     const { cart } = useCart();
@@ -59,6 +60,13 @@ export default function CheckoutPage() {
             </div>
             <div>
               <Title title="Señala tu ubicación" fontSize="1.6rem" />
+              <Map
+                location={order.addressLatLng}
+                onChange={latlng => {
+                  console.log(latlng);
+                  setOrder({ ...order, addressLatLng: latlng });
+                }}
+              />
             </div>
     
             <div className={classes.buttons_container}>
