@@ -21,11 +21,11 @@ export default function Header() {
 
             {user ? (
                     <li className={classes.menu_container}>
-                        <Link to="/perfil">{user.name}</Link>
+                        <a> {user.name}</a>
                         <div className={classes.menu}>
                             <Link to="/perfil">Perfil</Link>
                             <Link to="/ordenes">Ordenes</Link>
-                            <a onClick={logout}>Cerrar sesión</a>
+                            <Link to="/login" onClick={logout}>Cerrar sesión</Link>
                         </div>
                     </li>
                     ) : (
