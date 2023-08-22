@@ -6,7 +6,7 @@ import { UserModel } from "../models/user.model.js";
 import bcrypt from 'bcryptjs';
 
 const router = Router();
-
+const PASSWORD_HASH_SALT_ROUNDS = 10;
 
 router.post('/login',
 handler(async (req, res) => {
@@ -19,6 +19,36 @@ handler(async (req, res) => {
         };
 
         res.status(BAD_REQUEST).send('Usuario o contraseña inválidos');
+    })
+);
+
+router.post(
+    '/registrar',
+    handler(async (req, res) =>{
+        const { name, email, password, address } = req.body;
+
+        const user = await UserModel.findOne({ email });
+
+        if(user) {
+            res.status(BAD_REQUEST).send('El usuario ya existe, inicia sesión');
+            return;
+        }
+
+        const hashedPassword = await bcrypt.hash(
+            password,
+            PASSWORD_HASH_SALT_ROUNDS
+        );
+
+        const newUser = {
+            name,
+            email: email.toLowerCase(),
+            password: hashedPassword,
+            address,
+        };
+        
+        const result = await UserModel.create(newUser);
+        res.send(generateTokenResponse(result));
+
     })
 );
 
