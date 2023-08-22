@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useForm } from 'react-hook-form';
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams, Link } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import classes from './loginPage.module.css';
 import Title from "../../Components/Title/Title";
@@ -42,7 +42,7 @@ export default function LoginPage() {
               required: true,
               pattern: {
                 value: /^[\w-.]+@([\w-]+\.)+[\w-]{2,63}$/i,
-                message: 'Email Is Not Valid',
+                message: 'El correo es inválido',
               },
             })}
             error={errors.email}
@@ -50,14 +50,22 @@ export default function LoginPage() {
 
           <Input
             type="password"
-            label="Password"
+            label="Contraseña"
             {...register('password', {
               required: true,
             })}
             error={errors.password}
           />
 
-          <Button type="submit" text="Login" />
+          <Button type="submit" text="Login" backgroundColor="#8215a3" />
+        
+          <div className={classes.register}>
+            New user? &nbsp;
+            <Link to={`/registrar${returnUrl ? '?returnUrl=' + returnUrl : ''}`}>
+              Registrate aquí
+            </Link>
+          </div>
+
         </form>
       </div>
     </div>

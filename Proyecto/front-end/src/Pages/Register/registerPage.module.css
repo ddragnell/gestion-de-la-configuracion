@@ -4,10 +4,10 @@
     align-items: center;
     height: 100%;
     margin-top: 3rem;
-  }
+}
   
 .details {
-    width: 28rem;
+    width: 25rem;
 }
   
 .details form {
@@ -15,8 +15,8 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.register {
+  
+.login {
     display: flex;
     justify-content: center;
     align-items: center;
