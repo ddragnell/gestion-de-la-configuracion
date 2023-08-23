@@ -31,9 +31,8 @@ export default function CheckoutPage() {
             toast.warning('Por favor, indica tu ubicación');
             return;
         }
-
-        await createOrder({...order, name: data.name, address: data.address });
-        navigate('/pagar');
+        toast.success('¡Pedido realizado');
+        navigate('/');
     };
 
 
