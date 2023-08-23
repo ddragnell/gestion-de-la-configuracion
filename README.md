@@ -53,9 +53,9 @@ Ahora tendremos que iniciar la base de datos de Mongo, abriremos de nuevo Compas
 
 1. Volveremos al Visual Studio y daremos click derecho en "back-end" de nuevo, ahroa escribiremos en la terminal que se abra el siguiente comando: `npm run dev` y daremos enter, esto es para ejecutar el Back-end del proyecto: Te deberá aparecer en la consola lo siguiente:
 
-`Ejecutandose en el puerto 5000/n
-Users seed is already done!/n
-Foods seed is already done!/n
+`Ejecutandose en el puerto 5000\n
+Users seed is already done!\n
+Foods seed is already done!\n
 connect successfully---`
 
 De no ser así, la conexión con la base de datos ha tenido un error y deberás realizar el proceso de ejecución de base de datos de nuevo.
