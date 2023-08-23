@@ -24,9 +24,9 @@ Para ejecutar el proyecto es necesario un sistema operativo Windows 10 u 11 con 
 <br>
 A continuación se detalla el cómo instalar MongoDB:
 
-#### Instalar mongo
+#### Instalar MongoDB:
 
-Lo primero que se debe hacer es descargar el instalador de MongoDB ([Ver. 6.0.9](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.9-signed.msi)). Una vez descargado, abrimos el ejecutable, le daremos en "next" aparecida la primera ventana emergente, aceptaremos los términos y condiciones y avanzaremos a la siguente ventana emergente, en esta nos presentarán dos opciones: "Complete" y "Custom", eligiremos la primer opción, en la siguiente ventana no modificaremos nada y daremos next, en la última ventana emergente que nos saldrá tendremos una opción de marcar "Install MONGODB Compass", la marcaremos y le daremos next.
+Inicialmente se debe descargar el instalador de MongoDB ([Ver. 6.0.9](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.9-signed.msi)). Una vez descargado, abrimos el ejecutable, a continuación aparecerá la primera ventana emergente a la cual le daremos "next", la siguente ventana emergente requerirá que aceptemos los términos y condiciones, una vez aceptados avanzaremos a , en esta nos presentarán dos opciones: "Complete" y "Custom", eligiremos la primer opción, en la siguiente ventana no modificaremos nada y daremos next, en la última ventana emergente que nos saldrá tendremos una opción de marcar "Install MONGODB Compass", la marcaremos y le daremos next.
 
 Al finalizar la instalación veremos que se nos abriría un software llamado Compass, le daremos start y lo minimizaremos para usarlo luego.
 
