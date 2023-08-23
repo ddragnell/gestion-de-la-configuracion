@@ -1,10 +1,10 @@
 # Rappi
 
 El proyecto que estaremos trabajando en este repositorio será un E-Commerce tipo Rappi, desarrollado con JavaScript, React, Node Package Manager (NPM, el gestor de dependencias de NodeJs) para manejar las dependencias dentro del proyecto, la base de datos MongoDB. <br>En el aplicativo web se pueden encontrar las siguientes características:
-* Login
+* Login - Logout
 * Registro
-* Página para visualizar productos
-* Página para productos individuales
+* Página principal visualización de productos
+* Página visualizar detalles de producto
 * Carrito de compras
 * Checkout de la compra
 
@@ -12,14 +12,17 @@ El proyecto que estaremos trabajando en este repositorio será un E-Commerce tip
 
 ## Sistema operativo y requisitos
 
-Para ejecutar el proyecto es necesario un sistema operativo Windows 10 u 11 para evitar incompatibilidades y errores a la hora de ejecutar el programa.
+Para ejecutar el proyecto es necesario un sistema operativo Windows 10 u 11 con el fin de evitar incompatibilidades y errores a la hora de ejecutar el programa.
 
 ### Requisitos
 
 * Node.js ([Ver. 18.17.0 LTS](https://nodejs.org/dist/v18.17.1/node-v18.17.1-x64.msi))
 * Git ([Última versión](https://git-scm.com/downloads))
 * Visual Studio Code ([Última versión](https://code.visualstudio.com/download))
-
+* MongoDB ([Ver. 6.0.9](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.9-signed.msi))
+<br>
+<br>
+A continuación se detalla el cómo instalar MongoDB:
 
 #### Instalar mongo
 
