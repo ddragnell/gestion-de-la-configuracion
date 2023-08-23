@@ -24,7 +24,7 @@ export default function CartPage() {
                             <li key={item.food.id}>
                                 <div>
                                     <img 
-                                        src = {`/foods/${item.food.imageUrl}`} 
+                                        src = {`${item.food.imageUrl}`} 
                                         alt = {item.food.name}
                                     />
                                 </div>
@@ -71,7 +71,7 @@ export default function CartPage() {
                             </div>
                         </div>
 
-                        <Link to="/pago">Pagar</Link>
+                        <Link to="/checkout">Confirmar compra</Link>
                     </div>
                 </div>
  

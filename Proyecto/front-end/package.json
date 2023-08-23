@@ -2,14 +2,21 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
+  "author": "Andrés Felipe Saldarriaga Becerra, Manuela Moreno Arcila",
+  "description": "Proyecto de E-commerce tipo rappi para la asignatura gestión de la configuración del año 2023-2 (sexto semestre)",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.4",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

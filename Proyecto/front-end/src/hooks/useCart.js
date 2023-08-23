@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';  
 
 const CartContext = createContext(null);
 const CART_KEY = 'carrito';
@@ -43,6 +43,7 @@ export default function CartProvider({ children }) {
     const filteredCartItems = cartItems.filter(item => item.food.id !== foodId);
     setCartItems(filteredCartItems);
   };
+  
 
   const changeQuantity = (cartItem, newQauntity) => {
     const { food } = cartItem;

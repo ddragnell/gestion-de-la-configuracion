@@ -1,6 +1,5 @@
 export const sample_foods = [
     {
-      id: '1',
       name: 'Pizza de pepperoni',
       cookTime: '10-20',
       price: 20000,
@@ -11,7 +10,6 @@ export const sample_foods = [
       tags: ['Comida rápida', 'Pizza', 'Comida chatarra'],
     },
     {
-      id: '2',
       name: 'Albóndiga',
       price: 30000,
       cookTime: '20-30',
@@ -22,7 +20,6 @@ export const sample_foods = [
       tags: ['Plato fuerte', 'Comida chatarra'],
     },
     {
-      id: '3',
       name: 'Hamburguesa',
       price: 15000,
       cookTime: '10-15',
@@ -33,7 +30,6 @@ export const sample_foods = [
       tags: ['Comida rápida', 'Hamburguesa', 'Comida chatarra'],
     },
     {
-      id: '4',
       name: 'Papas fritas',
       price: 8000,
       cookTime: '15-20',
@@ -44,7 +40,6 @@ export const sample_foods = [
       tags: ['Comida chatarra', 'Fritos'],
     },
     {
-      id: '5',
       name: 'Sopita de pollo',
       price: 18500,
       cookTime: '40-50',
@@ -55,7 +50,6 @@ export const sample_foods = [
       tags: ['Plato fuerte', 'Sopa'],
     },
     {
-      id: '6',
       name: 'Pizza de vegetales',
       price: 17000,
       cookTime: '40-50',
@@ -76,4 +70,22 @@ export const sample_tags = [
   { name: 'Hamburguesa', count: 1 },
   { name: 'Fritos', count: 1 },
   { name: 'Sopa', count: 1 },
+];
+
+
+export const sample_users = [
+  {
+    name: 'Andrés',
+    email: 'andressalbecerra@gmail.com',
+    password: '12345',
+    address: 'Cali',
+    isAdmin: false,
+  },
+  {
+    name: 'Manuela',
+    email: 'mamnuu@gmail.com',
+    password: '12345',
+    address: 'Medellín',
+    isAdmin: true,
+  },
 ];

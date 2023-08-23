@@ -2,16 +2,14 @@ import React from 'react'
 import classes from './header.module.css';
 import { Link } from 'react-router-dom';
 import { useCart } from '../../hooks/useCart';
+import { useAuth } from '../../hooks/useAuth';
 
 export default function Header() {
 
-    const user = {
-        name: 'Andrés',
-    };
+    const { user, logout } = useAuth();
 
     const { cart } = useCart();
 
-    const cerrar_sesion = () => {}
 
   return <header className={classes.header}>
     <div className={classes.container}>
@@ -23,11 +21,11 @@ export default function Header() {
 
             {user ? (
                     <li className={classes.menu_container}>
-                        <Link to="/perfil">{user.name}</Link>
+                        <a> {user.name}</a>
                         <div className={classes.menu}>
                             <Link to="/perfil">Perfil</Link>
                             <Link to="/ordenes">Ordenes</Link>
-                            <a onClick={cerrar_sesion}>Cerrar sesión</a>
+                            <Link to="/login" onClick={logout}>Cerrar sesión</Link>
                         </div>
                     </li>
                     ) : (
