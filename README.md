@@ -61,7 +61,7 @@ connect successfully---`
 De no ser así, la conexión con la base de datos ha tenido un error y deberás realizar el proceso de ejecución de base de datos de nuevo.
 
 
-2. Ahora daremos de nuevo click derecho en la carpeta "front-end" y seleccionaremos "Open in Integrated Terminal" y escribiremos el siguiente comando `npm start` y daremos enter, con eso tendríamos el front end del proyecto ejécutándose y se abrirá automáticamente una ventana de tu navegador, ¡en hora buena! Ya se está ejecutando el programa.
+2. Ahora daremos de nuevo click derecho en la carpeta "front-end" y seleccionaremos "Open in Integrated Terminal" y escribiremos el siguiente comando `npm build`, esperas a que acabe de ejecutarse el comando y luego escribe `npm start` y daremos enter, con eso tendríamos el front end del proyecto ejécutándose y se abrirá automáticamente una ventana de tu navegador, ¡en hora buena! Ya se está ejecutando el programa.
 
 
 # Importante
