@@ -20,7 +20,7 @@ Para ejecutar el proyecto es necesario un sistema operativo Windows 10 u 11 con 
 * Git ([Última versión](https://git-scm.com/downloads))
 * Visual Studio Code ([Última versión](https://code.visualstudio.com/download))
 * MongoDB ([Ver. 6.0.9](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.9-signed.msi))
-<br>
+
 <br>
 A continuación se detalla el cómo instalar MongoDB:
 
