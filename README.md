@@ -1,6 +1,7 @@
 # Rappi
 
-El proyecto que estaremos trabajando en este repositorio será un E-Commerce tipo Rappi, desarrollado con JavaScript, React, Node Package Manager (NPM, el gestor de dependencias de NodeJs) para manejar las dependencias dentro del proyecto, la base de datos MongoDB. *\ En el aplicativo web se pueden encontrar las siguientes características:
+El proyecto que estaremos trabajando en este repositorio será un E-Commerce tipo Rappi, desarrollado con JavaScript, React, Node Package Manager (NPM, el gestor de dependencias de NodeJs) para manejar las dependencias dentro del proyecto, la base de datos MongoDB. En el aplicativo web se pueden encontrar las siguientes características:
+&nbsp;
 * Login
 * Registro
 * Página para visualizar productos
