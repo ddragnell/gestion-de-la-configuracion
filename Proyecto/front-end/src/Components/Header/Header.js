@@ -23,8 +23,6 @@ export default function Header() {
                     <li className={classes.menu_container}>
                         <a> {user.name}</a>
                         <div className={classes.menu}>
-                            <Link to="/perfil">Perfil</Link>
-                            <Link to="/ordenes">Ordenes</Link>
                             <Link to="/login" onClick={logout}>Cerrar sesión</Link>
                         </div>
                     </li>

@@ -57,10 +57,10 @@ export default function LoginPage() {
             error={errors.password}
           />
 
-          <Button type="submit" text="Login" backgroundColor="#8215a3" />
+          <Button type="submit" text="Iniciar sesión" backgroundColor="#8215a3" />
         
           <div className={classes.register}>
-            New user? &nbsp;
+            ¿Nuevo usuario? &nbsp;
             <Link to={`/registrar${returnUrl ? '?returnUrl=' + returnUrl : ''}`}>
               Registrate aquí
             </Link>
