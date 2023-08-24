@@ -52,11 +52,17 @@ Para instalar las dependencias que permiten que el programa funcione, debemos ha
 
 2. Ahora instalaremos las dependencias del front, daremos click derecho en la carpeta "front-end" y seleccionaremos de nuevo "Open in Integrated Terminal", volveremos a escribir `npm install` y esperaremos a que se acaben de instalar las dependencias (puede demorar más tiempo que la instalación de dependencias del back-end).
 
+**Generar el artefacto**:
+
+Para crear el artefacto daremos click derecho en la carpeta "front-end", daremos click en "Open in Integrated Terminal" y escribiremos en la terminal el comando `npm run build`, esperaremos hasta que se acaben de ejecutar las instrucciones que se pueden ver en la terminal, al finalizar, se creará una carpeta llamada "build", ahí se encuentra el artefacto.
+
+## Ejecución del programa:
+
 **Ejecución de la base de datos**:
 
 Ahora tendremos que iniciar la base de datos de Mongo, abriremos de nuevo Compass y le daremos en "New Connection", una vez hecho esto se nos abrirá una caja de texto donde pondremos lo siguiente `mongodb://localhost:27017` y daremos click en Connect, ahora podremos minimizar de nuevo Compass y ejecutar el programa.
 
-**Ejecución del programa**:
+**Iniciar el programa**:
 
 1. Volveremos al Visual Studio y daremos click derecho en "back-end" de nuevo, ahroa escribiremos en la terminal que se abra el siguiente comando: `npm run dev` y daremos enter, esto es para ejecutar el Back-end del proyecto: Te deberá aparecer en la consola lo siguiente:
 
@@ -68,7 +74,7 @@ connect successfully---`
 De no ser así, la conexión con la base de datos ha tenido un error y deberás realizar el proceso de ejecución de base de datos de nuevo.
 
 
-2. Ahora daremos de nuevo click derecho en la carpeta "front-end" y seleccionaremos "Open in Integrated Terminal" y escribiremos el siguiente comando `npm build`, esperas a que acabe de ejecutarse el comando y luego escribe `npm start` y daremos enter, con eso tendríamos el front end del proyecto ejécutándose y se abrirá automáticamente una ventana de tu navegador, ¡en hora buena! Ya se está ejecutando el programa.
+2. Ahora daremos de nuevo click derecho en la carpeta "front-end", seleccionaremos "Open in Integrated Terminal", escribiremos `npm start` y daremos enter, con eso tendríamos el front end del proyecto ejécutándose y se abrirá automáticamente una ventana de tu navegador, ¡en hora buena! Ya se está ejecutando el programa.
 
 
 # Importante
