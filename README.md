@@ -38,7 +38,11 @@ Al finalizar la instalación se abrirá un software llamado Compass, le daremos 
 
 **Clonar el repositorio**: 
 
-Para clonar el repositorio haremos uso de las herramientas de Git, para ello daremos click derecho en el escritorio del computador y seleccionaremos la opción de Git Bash Here (si tienes windows 11, darás click derecho, más opciones y te saldrá Git Bash Here), se abrirá una ventana emergente donde debes escribir `git clone -b Manuela_Moreno_Arcila-Andres_Felipe_Saldarriaga_Becerra https://github.com/ddragnell/gestion-de-la-configuracion` y oprimirás enter, con esto habrás clonado todos los archivos que se encuentran en el repositorio de Github en tu dispositivo, ahora puedes cerrar la ventana emergente de Git.
+Para clonar el repositorio haremos uso de las herramientas de Git, para ello daremos click derecho en el escritorio del computador y seleccionaremos la opción de Git Bash Here (si tienes windows 11, darás click derecho, más opciones y te saldrá Git Bash Here), se abrirá una ventana emergente donde debes escribir 
+```
+git clone -b Manuela_Moreno_Arcila-Andres_Felipe_Saldarriaga_Becerra https://github.com/ddragnell/gestion-de-la-configuracion
+```
+y oprimirás enter, con esto habrás clonado todos los archivos que se encuentran en el repositorio de Github en tu dispositivo, ahora puedes cerrar la ventana emergente de Git.
 
 **Instalar las dependencias**:
 
