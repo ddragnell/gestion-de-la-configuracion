@@ -1,6 +1,6 @@
 # Rappi
 
-El proyecto que estaremos trabajando en este repositorio será un E-Commerce tipo Rappi, desarrollado con JavaScript, React, Node Package Manager (NPM, el gestor de dependencias de NodeJs) para manejar las dependencias dentro del proyecto, la base de datos MongoDB. <br>En el aplicativo web se pueden encontrar los siguientes [componentes]():
+El proyecto que estaremos trabajando en este repositorio será un E-Commerce tipo Rappi, desarrollado con JavaScript, React, Node Package Manager (NPM, el gestor de dependencias de NodeJs) para manejar las dependencias dentro del proyecto, la base de datos MongoDB. <br>En el aplicativo web se pueden encontrar los siguientes [componentes](https://github.com/ddragnell/gestion-de-la-configuracion/wiki/Partes-del-aplicativo-web):
 * Login - Logout
 * Registro
 * Página principal visualización de productos
