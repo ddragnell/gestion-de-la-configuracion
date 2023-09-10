@@ -44,13 +44,13 @@ export default function CheckoutPage() {
               <div className={classes.inputs}>
                 <Input
                   defaultValue={user.name}
-                  label="Name"
+                  label="Nombre"
                   {...register('name')}
                   error={errors.name}
                 />
                 <Input
                   defaultValue={user.address}
-                  label="Address"
+                  label="Dirección"
                   {...register('address')}
                   error={errors.address}
                 />
